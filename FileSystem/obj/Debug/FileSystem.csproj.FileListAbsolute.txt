@@ -1,0 +1,12 @@
+c:\users\nathan\documents\visual studio 2013\Projects\FileSystem\FileSystem\bin\Debug\FileSystem.exe.config
+C:\Users\Nathan\documents\visual studio 2013\Projects\FileSystem\FileSystem\bin\Debug\FileSystem.exe
+C:\Users\Nathan\documents\visual studio 2013\Projects\FileSystem\FileSystem\bin\Debug\FileSystem.pdb
+C:\Users\Nathan\documents\visual studio 2013\Projects\FileSystem\FileSystem\obj\Debug\FileSystem.exe
+C:\Users\Nathan\documents\visual studio 2013\Projects\FileSystem\FileSystem\obj\Debug\FileSystem.pdb
+C:\Users\Nathan\documents\visual studio 2013\Projects\FileSystem\FileSystem\obj\Debug\FileSystem.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\B2\FileSystem\FileSystem\bin\Debug\FileSystem.exe.config
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\B2\FileSystem\FileSystem\obj\Debug\FileSystem.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\B2\FileSystem\FileSystem\obj\Debug\FileSystem.pdb
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\B2\FileSystem\FileSystem\obj\Debug\FileSystem.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\B2\FileSystem\FileSystem\bin\Debug\FileSystem.exe
+C:\Users\Nathan\Documents\Visual Studio 2013\Projects\B2\FileSystem\FileSystem\bin\Debug\FileSystem.pdb

@@ -12,7 +12,8 @@ namespace FileSystem
         static Directory C = new Directory("root") { path = "#" ,permission = 7};
         static File location = C;
         static void Main(string[] args)
-        {          
+        {
+            boot();
             while (true)
             {
                 getCommand(location);
@@ -21,7 +22,9 @@ namespace FileSystem
         }
         public static void getCommand(File location)
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.Write(location.path + "/> ");
+            Console.ResetColor();
             string command = Console.ReadLine();
             List<string> instruction = command.Split().ToList();
             if (instruction.Count < 2)
@@ -150,6 +153,56 @@ namespace FileSystem
                     Console.WriteLine("Commande inconnue");
                     break;
             }
+        }
+        public static void boot()
+        {
+            Console.WriteLine("Remounting devfs at correct place if necessary");
+            Console.WriteLine("Mounted devfs on /dev");
+            Console.Write("Setting default font (lat0-16): ");
+            Console.ForegroundColor = System.ConsoleColor.DarkGreen;
+            Console.Write("[ OK ]\n");
+            Console.ResetColor();
+            Console.WriteLine("Amorçage en cours. Veuillez patienter ...");
+            Console.WriteLine("*");
+            System.Threading.Thread.Sleep(500);
+            Console.WriteLine("*");
+            System.Threading.Thread.Sleep(100);
+            Console.WriteLine("*");
+            System.Threading.Thread.Sleep(100);
+            Console.WriteLine("*");
+            System.Threading.Thread.Sleep(500);
+            Console.WriteLine("*");
+            System.Threading.Thread.Sleep(100);
+            Console.WriteLine("*");
+            Console.Write("Lancement du service DevFs : ");
+            System.Threading.Thread.Sleep(100);
+            Console.Write("* ");
+            System.Threading.Thread.Sleep(100);
+            Console.Write("* ");
+            System.Threading.Thread.Sleep(100);
+            Console.ForegroundColor = System.ConsoleColor.DarkGreen;
+            Console.Write("[ OK ]\n");
+            Console.ResetColor();
+            Console.Write("Démontage du RAMdisk initrd ");
+            System.Threading.Thread.Sleep(100);
+            Console.Write("* ");
+            System.Threading.Thread.Sleep(100);
+            Console.Write("* ");
+            System.Threading.Thread.Sleep(200);
+            Console.ForegroundColor = System.ConsoleColor.DarkGreen;
+            Console.Write("[ OK ]\n");
+            Console.Write("Montage du cerveau ");
+            System.Threading.Thread.Sleep(200);
+            Console.ForegroundColor = System.ConsoleColor.DarkRed;
+            Console.Write("[ ECHEC ]\n");
+            Console.ResetColor();
+            System.Threading.Thread.Sleep(500);
+            Console.Clear();
+            Console.WriteLine("######################################################");
+            Console.WriteLine("###############/                      \\###############");
+            Console.WriteLine("###############    File System . cs    ###############");
+            Console.WriteLine("###############/                      \\###############");
+            Console.WriteLine("######################################################\n\n");
         }
 
     }
